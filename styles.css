@@ -28,6 +28,9 @@ body {
     text-align: center;
 }
 
+
+/* PROJECT SECTION */
+
 .project-box {
     background-color: #ffffff;
     padding-top: 20px;
@@ -35,7 +38,12 @@ body {
 }
 
 .project-box:hover {
-    background-color: #ffa366;
+    /* background-color: #ffa366; */
+}
+
+.content a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .project-title {
@@ -58,10 +66,12 @@ body {
     background-color: #ffa366;
 }
 
+/* PHOTOGRAPHY SECTION */
 #photography {
     color: #ffffff;
 }
 
+/* VIDEOGRAPHY SECTION */
 #videography {
     color: #ffffff;
     background-color: #ffa366;
