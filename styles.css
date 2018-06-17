@@ -47,7 +47,6 @@ body {
 .content {
     /* outline: solid; */
     padding-top: 50px;
-    padding-bottom: 30px;
 }
 
 .content-title {
@@ -57,6 +56,11 @@ body {
 
 
 /* ------------ PROJECT SECTION ------------ */
+.projects {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
 .project-box {
     background-color: #ffffff;
     padding-top: 20px;
@@ -73,7 +77,7 @@ body {
     height: 230px;
 }
 
-.content a {
+.projects a {
     color: #000000;
     text-decoration: none!important;
 }
@@ -94,7 +98,8 @@ body {
 }
 
 /* ------------ PHOTOGRAPHY SECTION ------------ */
-#photography {
+.photography {
+    padding-top: 50px;
     color: #ffffff;
 }
 
@@ -114,12 +119,14 @@ body {
 
 
 /* ------------ VIDEOGRAPHY SECTION ------------ */
-#videography {
+.videography {
+    padding-top:50px;
+    padding-bottom: 30px;
     color: #ffffff;
     background-color: #ffa366;
 }
 
-#videography:hover {
+.videography:hover {
     color: #ffffff;
     background-color: #b3b3b3;
 }
