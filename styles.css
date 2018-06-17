@@ -2,7 +2,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* --- HEADER --- */
+/* ------------ HEADER ------------ */
 .nav-link {
     color: #ffa366;
 }
@@ -11,14 +11,15 @@ body {
     color: #b3b3b3;
 }
 
-/* --- BODY --- */
+/* ------------ BODY ------------ */
 
 .parallax {
+    padding-top: 150px;
      /* The image used */
-    background-image: url("https://images.unsplash.com/photo-1517179465283-0221aea1d382?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=faeedfc8042fa24be161474dbcb5b065&auto=format&fit=crop&w=800&q=60");
+    background-image: url("https://images.unsplash.com/photo-1455461491901-a0990c10d84c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1ceed96179839c9b9ec7c528645e68d0&auto=format&fit=crop&w=1650&q=80");
 
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 500px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -31,18 +32,17 @@ body {
 .parallax h1 {
     padding: 10px;
     color: #ffffff;
-    margin: 200px;
     outline: solid;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
 }
 
-.jumbotron {
+/*.jumbotron {
     margin: 40px;
     background: none;
-    /*background-color: #ffffff;*/
-}
+    background-color: #ffffff;
+}*/
 
 .content {
     /* outline: solid; */
@@ -56,7 +56,7 @@ body {
 }
 
 
-/* PROJECT SECTION */
+/* ------------ PROJECT SECTION ------------ */
 .project-box {
     background-color: #ffffff;
     padding-top: 20px;
@@ -65,6 +65,12 @@ body {
 
 .project-box:hover {
     /* background-color: #ffa366; */
+}
+
+.project-box img {
+    padding-bottom: 25px;
+    width: 90%;
+    height: 230px;
 }
 
 .content a {
@@ -77,27 +83,37 @@ body {
     padding-bottom: 15px;
 }
 
-.project-box img {
-    padding-bottom: 25px;
-    width: 90%;
-    height: 230px;
-}
 
 .project-footer {
     padding: 10px;
 }
 
 .project-footer:hover {
-    color: #ffffff;
-    background-color: #ffa366;
+    /*color: #ffffff;*/
+    background-color: #ffffff;
 }
 
-/* PHOTOGRAPHY SECTION */
+/* ------------ PHOTOGRAPHY SECTION ------------ */
 #photography {
     color: #ffffff;
 }
 
-/* VIDEOGRAPHY SECTION */
+.photo-gallery {
+    width: 100%;
+    white-space: nowrap;
+    overflow: visible;
+    overflow-x: scroll;
+}
+
+.photo {
+    height: 500px;
+    width: max;
+    display: inline-block;
+    object-fit: scale-down;
+}
+
+
+/* ------------ VIDEOGRAPHY SECTION ------------ */
 #videography {
     color: #ffffff;
     background-color: #ffa366;
@@ -110,8 +126,7 @@ body {
 
 
 
-
-/* --- FOOTER --- */
+/* ------------ FOOTER ------------ */
 .footer {
     margin-top: 60px;
     margin-left: 30px;
