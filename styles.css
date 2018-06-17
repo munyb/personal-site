@@ -12,9 +12,35 @@ body {
 }
 
 /* --- BODY --- */
+
+.parallax {
+     /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1517179465283-0221aea1d382?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=faeedfc8042fa24be161474dbcb5b065&auto=format&fit=crop&w=800&q=60");
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.parallax h1 {
+    color: #ffffff;
+    margin: 200px;
+    outline: solid;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
 .jumbotron {
     margin: 40px;
-    background-color: #ffffff;
+    background: none;
+    /*background-color: #ffffff;*/
 }
 
 .content {
@@ -30,7 +56,6 @@ body {
 
 
 /* PROJECT SECTION */
-
 .project-box {
     background-color: #ffffff;
     padding-top: 20px;
@@ -81,8 +106,6 @@ body {
     color: #ffffff;
     background-color: #b3b3b3;
 }
-
-
 
 
 
