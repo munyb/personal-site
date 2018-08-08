@@ -86,6 +86,9 @@ header * {
     background-color: #ffffff;
     padding-top: 20px;
     padding-bottom: 0px;
+    width: 310px;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .project-box:hover {
@@ -96,6 +99,7 @@ header * {
     padding-bottom: 25px;
     width: 90%;
     height: 230px;
+    min-width: 100%;
 }
 
 .projects a {
