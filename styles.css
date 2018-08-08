@@ -151,6 +151,18 @@ header * {
     background-color: #ffa366;
 }
 
+.video {
+    min-width: 580px;
+    padding: 0px;
+}
+
+.video-description {
+    margin-right: 1px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
 .video-gallery {
 
 }
